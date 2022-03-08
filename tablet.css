@@ -1,0 +1,26 @@
+@media (min-width: 720px) {
+    body {
+      background-color: hotpink;
+    }
+  }
+    body > main { /* NEW */
+    width: 70%; /* NEW */
+  }             /* NEW */
+  
+    #footer-container {           /* NEW */
+      flex-direction: row;        /* NEW */
+    }                             /* NEW */
+  
+    #footer-container > section { /* NEW */
+      margin-right: 32px;         /* NEW */
+    }                             /* NEW */
+  
+
+    body > main > article > footer {       /* NEW */
+      flex-direction: row;                 /* NEW */
+    }                                      /* NEW */
+  
+    body > main > article > footer > img { /* NEW */
+      margin-right: 16px;                  /* NEW */
+    }                                      /* NEW */
+

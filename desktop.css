@@ -1,0 +1,24 @@
+@media (min-width: 1080px) {
+    body {
+      background-color: hotpink;
+    }
+  
+  body > header {            /* NEW */
+    flex-direction: row;     /* NEW */
+  }                          /* NEW */
+
+  body > header > nav > ul { /* NEW */
+    align-items: center;     /* NEW */
+  }                          /* NEW */
+
+  body > main {           /* NEW */
+    flex-direction: row;  /* NEW */
+  }                       /* NEW */
+
+  body > main > article { /* NEW */
+    padding: 0 100px;     /* NEW */
+  }  
+
+}
+
+
